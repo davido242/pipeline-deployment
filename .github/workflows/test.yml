@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '18.x'
-    - name: Run yarn
+    - name: Run Yarn 
       run: yarn
-    - name: run tests
+    - name: Run tests
       run: yarn test
