@@ -1,6 +1,8 @@
 const express = require('express');
 const _ = require('underscore');
 
+require("dotenv").config();
+
 var port = process.env.PORT || 8080;
 var animals = {
     "cat": "meow",

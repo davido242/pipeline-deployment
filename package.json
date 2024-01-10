@@ -3,12 +3,14 @@
   "license": "MIT",
   "version": "0.0.1",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "4.x",
+    "nodemon": "^3.0.2",
     "underscore": "^1.12.1"
   },
   "scripts": {
     "test": "nyc --reporter=html mocha --exit",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
